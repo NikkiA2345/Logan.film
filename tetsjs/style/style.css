@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+
+}
+
+body  {
+width: 600px;
+height: 1218px;
+
+}
+h3 {
+
+    margin: 5px;
+}
+
+p {
+    margin: 5px;
+}
+
+.header {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Rubiconimg {
+    width: 260px;
+    height: 260px;
+
+}
+ .main_container {
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-left: 20px;
+
+ }
+
+ .button {
+    width: 131px;
+    height: 48px;
+    background: #489DFF;
+    border-radius: 7px;
+    border: 0;
+
+   
+ }
+.Rubiconimg {
+    border-radius: 15px;
+} 
+p:hover {
+    color: #489DFF;
+}
